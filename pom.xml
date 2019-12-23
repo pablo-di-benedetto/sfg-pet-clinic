@@ -40,8 +40,5 @@
         </plugins>
     </build>
 
-    <scm>
-        <developerConnection>scm:git:git@github.com:pablo-di-benedetto/sfg-pet-clinic.git</developerConnection>
-    </scm>
 
 </project>
