@@ -140,3 +140,6 @@ target
 # ESLint
 ######################
 .eslintcache
+
+pom.xml.releaseBackup
+release.properties
