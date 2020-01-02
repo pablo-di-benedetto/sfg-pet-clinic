@@ -1,19 +1,14 @@
 package guru.springframework.sfgpetclinic.services.map;
 
 import guru.springframework.sfgpetclinic.model.Visit;
-import guru.springframework.sfgpetclinic.repositories.VisitRepository;
 import guru.springframework.sfgpetclinic.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
     
-    private final VisitRepository visitRepository;
-
-    public VisitMapService(VisitRepository visitRepository) {
-        this.visitRepository = visitRepository;
-    }
-
     @Override
     public Set<Visit> findAll() {
         return super.findAll();
